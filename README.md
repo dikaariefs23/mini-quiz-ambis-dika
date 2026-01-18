@@ -130,7 +130,7 @@ Quiz Flow:
 5. Push → Pull Request
 ```
 
-**Good First Issues:**
+Good First Issues:
 - Dark mode toggle (Tailwind `dark:`)
 - PWA manifest + offline support
 - Multi-language (i18n)
@@ -144,7 +144,7 @@ External API: Ambisius Academy (https://api.quiz.ambisiusacademy.com)
 
 ***
 👨‍💻 Dika Arief Sugiyatna  
-*Junior Fullstack Developer* | Bandung, West Java 🇮🇩  
+Junior Fullstack Developer | Bandung, West Java 🇮🇩  
 [GitHub](https://github.com/dikaariefs23) | [Portfolio](https://dikaariefs23.github.io)
 
-**⭐ Star repo if helpful!** _#react #tailwind #vite #vercel #portfolio #quizapp_
+⭐ Star repo if helpful! _#react #tailwind #vite #vercel #portfolio #quizapp_
