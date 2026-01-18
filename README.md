@@ -116,9 +116,8 @@ Quiz Flow:
 ✅ [ ] Login → Dashboard subtests 
 ✅ [ ] Start quiz → timer countdown
 ✅ [ ] Submit → history update
-✅ [ ] Profile update/password change
+✅ [ ] Profile update
 ✅ [ ] Responsive mobile
-✅ [ ] Vercel auto-deploy GitHub
 ```
 
 ## 🤝 Contributing Guidelines
