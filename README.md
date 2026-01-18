@@ -60,11 +60,6 @@ POST /api/quiz/submit      # Skor
 GET  /api/history          # Results
 ```
 
-## ☁️ Deploy Vercel (2 menit)
-1. Push GitHub
-2. vercel.com → New Project → Import repo
-3. Deploy! Live:
-
 ## 🔧 Troubleshooting
 | Issue | Solution |
 |-------|----------|
@@ -82,8 +77,4 @@ GET  /api/history          # Results
 
 ***
 
-**Dika Arief Sugiyatna**  
-Junior Frontend Developer | Bandung, ID  
-[GitHub](https://github.com/dikaariefs23) | [Portfolio](https://dikaariefs23.github.io)
-
-⭐ **Star kalau berguna!** _MIT License_ [perplexity](https://www.perplexity.ai/search/2e20a574-dc2b-431a-92db-de9dfc642f50)
+**Dika Arief Sugiyatna**
