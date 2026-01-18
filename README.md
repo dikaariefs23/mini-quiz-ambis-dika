@@ -130,19 +130,12 @@ Quiz Flow:
 5. Push → Pull Request
 ```
 
-Good First Issues:
-- Dark mode toggle (Tailwind `dark:`)
-- PWA manifest + offline support
-- Multi-language (i18n)
-- Session reset button UI
-
 ## 📄 License & Credits
 ```
 MIT License © 2026 Dika Arief Sugiyatna
 External API: Ambisius Academy (https://api.quiz.ambisiusacademy.com)
 ```
 
-***
 👨‍💻 Dika Arief Sugiyatna  
 Junior Fullstack Developer | Bandung, West Java 🇮🇩  
 [GitHub](https://github.com/dikaariefs23) | [Portfolio](https://dikaariefs23.github.io)
