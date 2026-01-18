@@ -67,14 +67,3 @@ GET  /api/history          # Results
 | Token Expired | Clear localStorage → relogin |
 | Password Fail | Cek old_password di Network tab F12 |
 | Build Error | `rm node_modules && npm i` |
-
-## 🤝 Kontribusi
-1. Fork → Clone
-2. `git checkout -b feature/xyz`
-3. Commit → PR
-
-**Roadmap:** Dark mode | PWA | Leaderboard
-
-***
-
-**Dika Arief Sugiyatna**
