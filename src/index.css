@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* style yang sudah ada tetap dipertahankan */
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: #111827;
+}
