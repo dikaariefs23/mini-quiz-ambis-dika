@@ -143,7 +143,7 @@ External API: Ambisius Academy (https://api.quiz.ambisiusacademy.com)
 ```
 
 ***
-**👨‍💻 Dika Arief Sugiyatna**  
+👨‍💻 Dika Arief Sugiyatna  
 *Junior Fullstack Developer* | Bandung, West Java 🇮🇩  
 [GitHub](https://github.com/dikaariefs23) | [Portfolio](https://dikaariefs23.github.io)
 
