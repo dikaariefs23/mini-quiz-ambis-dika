@@ -1,16 +1,89 @@
-# React + Vite
+# Mini Quiz Ambis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi frontend React untuk platform kuis latihan subtest Ambisius Academy. Terhubung external API `https://api.quiz.ambisiusacademy.com` **tanpa database/backend lokal**. UI modern gradient TailwindCSS, responsive mobile-first.
 
-Currently, two official plugins are available:
+## ✨ Fitur Lengkap
+- ✅ **Auth Flow**: Register + email verify → Login JWT → Profile update → Ganti password → Logout
+- ✅ **Dashboard**: List subtest + session status (active/expired)
+- ✅ **Quiz**: Single session, real-time timer, resume, submit skor otomatis
+- ✅ **History**: Riwayat kuis + detail hasil per subtest
+- ✅ **UI/UX**: Loading/error states, responsive, gradient blur effects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+```
+Frontend: React 18 + Vite + TailwindCSS
+API:     Fetch + localStorage (JWT token)
+No Backend/DB - Pure Client + External API
+```
 
-## React Compiler
+## 🚀 Quick Start
+```bash
+git clone https://github.com/dikaariefs23/mini-quiz-ambis.git
+cd mini-quiz-ambis
+npm install
+npm run dev
+```
+**Open:** `http://localhost:5173`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Proxy CORS dev** (`vite.config.js`):
+```js
+export default {
+  server: {
+    proxy: {
+      '/api': 'https://api.quiz.ambisiusacademy.com'
+    }
+  }
+}
+```
 
-## Expanding the ESLint configuration
+## 📁 Struktur Folder
+```
+mini-quiz-ambis/
+├── src/
+│   ├── api/          # auth.js profile.js (external API calls)
+│   ├── components/   # Layout Navbar LoadingSpinner
+│   └── pages/        # ProfilePage QuizPage Dashboard History
+├── public/
+├── vite.config.js
+├── tailwind.config.js
+└── package.json
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 API Endpoints
+```
+POST /api/auth/register    # + email verify
+POST /api/auth/login       # JWT token
+PUT  /api/profile          # Update name/email  
+PUT  /api/profile/change-password
+GET  /api/dashboard        # Subtests list
+POST /api/quiz/submit      # Skor
+GET  /api/history          # Results
+```
+
+## ☁️ Deploy Vercel (2 menit)
+1. Push GitHub
+2. vercel.com → New Project → Import repo
+3. Deploy! Live:
+
+## 🔧 Troubleshooting
+| Issue | Solution |
+|-------|----------|
+| CORS Error | Tambah proxy vite.config.js |
+| Token Expired | Clear localStorage → relogin |
+| Password Fail | Cek old_password di Network tab F12 |
+| Build Error | `rm node_modules && npm i` |
+
+## 🤝 Kontribusi
+1. Fork → Clone
+2. `git checkout -b feature/xyz`
+3. Commit → PR
+
+**Roadmap:** Dark mode | PWA | Leaderboard
+
+***
+
+**Dika Arief Sugiyatna**  
+Junior Frontend Developer | Bandung, ID  
+[GitHub](https://github.com/dikaariefs23) | [Portfolio](https://dikaariefs23.github.io)
+
+⭐ **Star kalau berguna!** _MIT License_ [perplexity](https://www.perplexity.ai/search/2e20a574-dc2b-431a-92db-de9dfc642f50)
